@@ -1,5 +1,5 @@
 # Lucia Sveltekit Demo
-Demo to try out [Lucia](https://lucia-auth.vercel.app/), a _"user and session management library that provides an abstraction layer between your app and your database"_.
+Demo to try out [Lucia](https://lucia-auth.vercel.app/), a _"user and session management library that provides an abstraction layer between your app and your database"_, with [Prisma](https://www.prisma.io/).
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
