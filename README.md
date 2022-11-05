@@ -1,7 +1,5 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
+# Lucia Sveltekit Demo
+Demo to try out [Lucia](https://lucia-auth.vercel.app/), a _"user and session management library that provides an abstraction layer between your app and your database"_.
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
