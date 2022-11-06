@@ -81,11 +81,6 @@
   dependencies:
     lucia-auth "0.1.4"
 
-"@lucia-auth/oauth@^0.1.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@lucia-auth/oauth/-/oauth-0.1.1.tgz#7b9896137b6688ecf44f1dc02ca054fa87c73ceb"
-  integrity sha512-FhDIe7b/xtZXVW+R96t89BxJDMqw0wTjaI6RIUmdwIX1JIdowUxsoafvOHw7LO2fb0OJvmm9dFrXbaKHlDgXog==
-
 "@lucia-auth/sveltekit@^0.1.6":
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/@lucia-auth/sveltekit/-/sveltekit-0.1.8.tgz#132efa2798b90d5a2d7ca6943c9358fde82857e4"
