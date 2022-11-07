@@ -18,5 +18,6 @@
 	>
 	<a href="/profile">Go to profile!</a>
 {:else}
-	<a href={data.authUrl}>Connect With Github</a>
+	<a href={data.githubAuthUrl}>Connect With Github</a>
+	<a href={data.twitchAuthUrl}>Connect With Twitch</a>
 {/if}
