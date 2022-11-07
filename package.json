@@ -32,6 +32,7 @@
 	"type": "module",
 	"dependencies": {
 		"@lucia-auth/adapter-prisma": "^0.1.1",
+		"@lucia-auth/oauth": "^0.1.2",
 		"@lucia-auth/sveltekit": "^0.1.6",
 		"@prisma/client": "^4.5.0",
 		"lucia-auth": "^0.1.3"

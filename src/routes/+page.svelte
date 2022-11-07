@@ -1,8 +1,22 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { signOut } from '@lucia-auth/sveltekit/client';
+	import { invalidateAll } from '$app/navigation';
 
 	export let data: PageData;
 </script>
 
 <h1>Welcome to SvelteKit + Lucia</h1>
-<a href={data.authUrl}>Connect With Github</a>
+
+{#if data.user}
+	<p>Hi {data.user.userId}!</p>
+	<button
+		on:click={() => {
+			signOut();
+			invalidateAll();
+		}}>Sign out</button
+	>
+	<a href="/profile">Go to profile!</a>
+{:else}
+	<a href={data.authUrl}>Connect With Github</a>
+{/if}

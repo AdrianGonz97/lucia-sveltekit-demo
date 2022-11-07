@@ -1,6 +1,6 @@
 import lucia from 'lucia-auth';
 import prisma from '@lucia-auth/adapter-prisma';
-import github from './oauth/github';
+import github from '@lucia-auth/oauth/github';
 import { PrismaClient } from '@prisma/client';
 import { dev } from '$app/environment';
 import { PUBLIC_GITHUB_CLIENT_ID } from '$env/static/public';

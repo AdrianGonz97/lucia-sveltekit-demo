@@ -17,6 +17,6 @@ declare namespace App {
 declare namespace Lucia {
 	type Auth = import('$lib/server/lucia').Auth;
 	type UserAttributes = {
-		// username: string;
+		username?: string;
 	};
 }
