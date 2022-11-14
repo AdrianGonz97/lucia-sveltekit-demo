@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@lucia-auth/adapter-prisma': ^0.1.2
-  '@lucia-auth/oauth': ^0.1.4
+  '@lucia-auth/oauth': ^0.1.5
   '@lucia-auth/sveltekit': ^0.3.0
   '@prisma/client': ^4.5.0
   '@sveltejs/adapter-auto': 1.0.0-next.87
@@ -25,7 +25,7 @@ specifiers:
 
 dependencies:
   '@lucia-auth/adapter-prisma': 0.1.2
-  '@lucia-auth/oauth': 0.1.4_lucia-auth@0.2.0
+  '@lucia-auth/oauth': 0.1.5_lucia-auth@0.2.0
   '@lucia-auth/sveltekit': 0.3.0_lucia-auth@0.2.0
   '@prisma/client': 4.5.0_prisma@4.5.0
   lucia-auth: 0.2.0
@@ -135,8 +135,8 @@ packages:
       lucia-auth: 0.1.4
     dev: false
 
-  /@lucia-auth/oauth/0.1.4_lucia-auth@0.2.0:
-    resolution: {integrity: sha512-83088uyByUOkyq91D0yJxC7JxGDp3TCKU5k0w9Y454g1hhG+HRW8xlXp8/z7q0zGKK7Gyj8QIb4ymuIji11b1w==}
+  /@lucia-auth/oauth/0.1.5_lucia-auth@0.2.0:
+    resolution: {integrity: sha512-2mFfeYvJ/oZnyRvjVr9FbzC3iIKFJjETqIdAJzqf6Xe65Oyp7RO5tcYWCa7MLxOpqc0xy3DtsLsPa+2hnTd3oQ==}
     peerDependencies:
       lucia-auth: 0.1.x || 0.2.x
     dependencies:
