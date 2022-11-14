@@ -1,7 +1,7 @@
 import lucia from 'lucia-auth';
 import prisma from '@lucia-auth/adapter-prisma';
 import github from '@lucia-auth/oauth/github';
-import twitch from '$lib/server/oauth/twitch';
+import twitch from '@lucia-auth/oauth/twitch';
 import { PrismaClient } from '@prisma/client';
 import { dev } from '$app/environment';
 import {
