@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import { getUser } from '@lucia-auth/sveltekit/client';
 
-	export let data: PageData;
+	const user = getUser();
 </script>
 
-<h1>Profile for {data.user.userId}</h1>
+<h1>Profile for {$user?.userId}</h1>
 <h2>This is a protected route!</h2>

@@ -1,15 +1,17 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import { signOut } from '@lucia-auth/sveltekit/client';
+	import { getUser, signOut } from '@lucia-auth/sveltekit/client';
 	import { invalidateAll } from '$app/navigation';
 
 	export let data: PageData;
+
+	const user = getUser();
 </script>
 
 <h1>Welcome to SvelteKit + Lucia</h1>
 
-{#if data.user}
-	<p>Hi {data.user.userId}!</p>
+{#if $user}
+	<p>Hi {$user.userId}!</p>
 	<button
 		on:click={() => {
 			signOut();
